@@ -64,6 +64,7 @@ resetBtn.addEventListener('click',()=>{
   document.querySelector('body').style.backgroundColor='black'
 score=20;
 displayScore.textContent=score;
+  randomNum = Math.trunc(Math.random()*20)+1;
 resultMsg.textContent='Star guessing...'
 guessNo.value=null
 document.querySelector('.number').textContent='?'
